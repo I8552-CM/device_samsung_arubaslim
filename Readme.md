@@ -1,1 +1,1 @@
-CyanogenMod 13 tree I8552 By Weritos
+CyanogenMod 13 tree GT-I8262 By Weritos
