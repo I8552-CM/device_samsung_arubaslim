@@ -18,8 +18,8 @@
 include device/samsung/msm7627a-common/BoardConfigCommon.mk
 
 ## Ota
-TARGET_OTA_ASSERT_DEVICE := arubaslim,GT-I8262,I8262
+#TARGET_OTA_ASSERT_DEVICE := arubaslim,GT-I8262,I8262
 
 ## Kernel
-TARGET_KERNEL_CONFIG := arubaslim_defconfig
+#TARGET_KERNEL_CONFIG := arubaslim_defconfig
 
