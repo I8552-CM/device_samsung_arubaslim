@@ -15,5 +15,5 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/arubaslim/cm_arubaslim.mk)
+$(call inherit-product, device/samsung/arubaslim/pac_arubaslim.mk)
 

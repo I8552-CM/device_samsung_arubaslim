@@ -22,10 +22,10 @@ TARGET_SCREEN_HEIGHT := 480
 TARGET_SCREEN_WIDTH := 800
 
 # Specify phone tech before including full_phone
-#$(call inherit-product, vendor/cm/config/gsm.mk)
+#$(call inherit-product, vendor/pac/config/gsm.mk)
 
-# Inherit some common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common PAC stuff
+$(call inherit-product, vendor/pac/config/common_full_phone.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -34,7 +34,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/msm7627a-common/msm7627aCommon.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := cm_arubaslim
+PRODUCT_NAME := pac_arubaslim
 PRODUCT_DEVICE := arubaslim
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := SAMSUNG
