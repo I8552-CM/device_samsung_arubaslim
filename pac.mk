@@ -17,3 +17,4 @@
 # Inherit device configuration
 $(call inherit-product, device/samsung/arubaslim/pac_arubaslim.mk)
 
+$(call inherit-product, device/samsung/arubaslim/ota.mk)
