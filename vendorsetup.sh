@@ -1,5 +1,5 @@
-add_lunch_combo cm_arubaslim-eng
-add_lunch_combo cm_arubaslim-userdebug
-add_lunch_combo cm_arubaslim-user dist
+add_lunch_combo lineage_arubaslim-eng
+add_lunch_combo lineage_arubaslim-userdebug
+add_lunch_combo lineage_arubaslim-user dist
 
 

@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/cm_arubaslim.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_arubaslim.mk

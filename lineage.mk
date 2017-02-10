@@ -15,6 +15,6 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/arubaslim/cm_arubaslim.mk)
+$(call inherit-product, device/samsung/arubaslim/lineage_arubaslim.mk)
 
 $(call inherit-product, device/samsung/arubaslim/ota.mk)
